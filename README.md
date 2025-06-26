@@ -20,4 +20,19 @@ It classifies **handwritten digit images** (0–9) and was trained on a custom d
 
 ---
 
-##
+
+## 🧪 Example: Prediction Flow
+
+1. You provide an image of a handwritten digit.
+2. The model resizes it to 28x28, flattens it, and processes it.
+3. It returns:
+   - A probability distribution over digits 0–9
+   - The predicted digit label
+
+---
+Path:
+digi_9.png
+ probab: [[1.24925632e-05 3.26402248e-06 9.46459732e-06 6.88287061e-05
+  5.66156002e-09 1.63590010e-04 7.76711142e-06 3.50609788e-06
+  2.20486190e-06 9.99728876e-01]]
+label: 9
