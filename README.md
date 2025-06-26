@@ -70,9 +70,8 @@ This is ideal for roles or projects that require custom AI logic, educational to
 
 ## 🗂 File Structure
 
-├── main.py # Full training + prediction code
-├── W1.npy, W2.npy # Saved weights
-├── b1.npy, b2.npy # Saved biases
-├── training_loss.png # Saved loss graph
-├── test_images/ # Folder to store test digit images
-└── README.md # You're here!
+main.py 
+W1.npy, W2.npy # Saved weights
+b1.npy, b2.npy # Saved biases
+training_loss.png 
+
